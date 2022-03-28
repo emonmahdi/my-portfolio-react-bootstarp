@@ -1,0 +1,39 @@
+#portfolio-section{
+    background-color: #222f3e;
+    padding:20px 0;
+}
+
+.single-image-portfolio{
+    position:relative;
+    width: 100%;
+}
+.single-image-portfolio img{ 
+   width: 100%;
+   display: inline-block;
+   margin: 10px;
+   margin-bottom: 10px;
+   height: 280px; 
+   border-radius: 5px;
+  
+}
+.single-image-portfolio:hover .overlay-image{ 
+  transform: scale(1); 
+}
+.overlay-image{
+  text-align: center;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  height: 280px; 
+  margin: 10px;
+  padding: 20px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
+  color:#fff; 
+  transform: scale(0);
+  /*transform-origin: top center;*/
+  transition:all .7s ease; 
+  
+}
