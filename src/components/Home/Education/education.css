@@ -1,0 +1,41 @@
+#education-section{
+    background-color: #222f3e;
+    padding:20px 0;
+}
+.resume-box{
+    position: relative;
+}
+.resume-box ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:#fff;
+}
+.resume-box ul li{
+     position: relative;
+     padding:0 20px 0 60px;
+	 margin: 0 0 50px;
+}
+.resume-box ul li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0; 
+    border-left: 1px solid #ddd;
+}
+.resume-box .icon{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 40px;
+	text-align: center;
+	z-index: 1;
+	border-radius:50%;
+	color:#fff;
+	background:#FFC312;
+	font-size: 20px;
+}
