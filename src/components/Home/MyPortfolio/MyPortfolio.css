@@ -2,7 +2,12 @@
     background-color: #222f3e;
     padding:20px 0;
 }
-
+#portfolio-section hr{
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  height: 2px;
+}
 .single-image-portfolio{
     position:relative;
     width: 100%;
@@ -36,4 +41,15 @@
   /*transform-origin: top center;*/
   transition:all .7s ease; 
   
+}
+.links-portfolio{
+  margin-top: 20px;
+}
+.links-portfolio a{
+  text-decoration: none;
+  color:#000;
+  margin: 20px;
+  background-color: #FFC312;
+  padding: 5px 15px;
+  border-radius: 5px;
 }

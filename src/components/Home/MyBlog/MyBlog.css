@@ -2,6 +2,12 @@
     background-color: #222f3e;
     padding:20px 0;
 }
+#blog-section hr{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    height: 2px;
+}
 .single-blog {
 	background-color: #252525;
 	width: 100%;  

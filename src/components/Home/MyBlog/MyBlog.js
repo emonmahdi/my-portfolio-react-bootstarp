@@ -9,6 +9,7 @@ import blog3 from '../../../images/b3.jpg'
 const MyBlog = () => {
   return (
     <div id="blog-section">
+		<hr />
       <Container>
         <div class="section-title">
           <h2>

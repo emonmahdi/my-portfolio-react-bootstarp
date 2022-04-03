@@ -1,0 +1,21 @@
+#footer-section{
+    background-color: #222f3e;
+    padding:20px 0;
+    color:#fff;
+}
+#footer-section span hr{
+    background-color: #ddd;
+    text-align: center;
+    height: 2px;
+
+}
+#footer-section h2 a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer-section h2 a span{
+    color:#FFC312;
+}
+#footer-section p{
+    margin-top: 15px;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "name": "Hotel Grand Park",
+        "languages": "HTML, CSS, React, MongoDB, NodeJS, Express, React-Bootstrap",
+        "features" : "Firebase, Heroku, Google Authentication , Login And Registration, Order services, User Review Add, User And Admin Dashboard features, Responsive all Desktop and Mobile",
+        "primaryImg": "https://i.ibb.co/pbpyBzq/p2.png",
+        "subImg1": "https://i.ibb.co/Nj18jLD/hotel-1.png", 
+        "subImg2": "https://i.ibb.co/bd7t37q/hotel-2.png", 
+        "subImg3": "https://i.ibb.co/p0qNdKb/hotel-3.png",
+        "description": "Any user can login to this website with google authentication system. If the user is not logged in, he will not be able to accept our service. If user logs in to our website, he will be able to place an order and see his order list.",
+        "liveLink": "https://hotel-grand-park-bsl.web.app/",
+        "clientCodeLink": "https://github.com/emonmahdi/tourism-hotel-project",
+        "serverCodeLink": "https://github.com/emonmahdi/tourism-hotel-project--server-side"
+    },
+    {
+        "id" : 2,
+        "name": "Nursing Care",
+        "languages": "HTML, CSS, React, MongoDB, NodeJS, Express, React-Bootstrap",
+        "features" : "Firebase, Heroku, Google Authentication , Login And Registration, Order services, User Review Add, User And Admin Dashboard features, Responsive all Desktop and Mobile",
+        "primaryImg": "https://i.ibb.co/j4dh64B/p3.png",
+        "subImg1": "https://i.ibb.co/yfYxp1S/nursing-carelogin.png", 
+        "subImg2": "https://i.ibb.co/xqXY031/nursing-care-2.png", 
+        "subImg3": "https://i.ibb.co/MntdtK5/nursing-care-3.png",
+        "description": "Users will be able to login and registration authentication website. Details about our services can be found if the user is logged in. Users will be able to view our website without login",
+        "liveLink": "https://nursing-care-3ccad.web.app/",
+        "clientCodeLink": "https://github.com/emonmahdi/healthcare-nursing-care-react"
+    },
+    {
+        "id" : 3,
+        "name": "smart camera",
+        "languages": "HTML, CSS, React, MongoDB, NodeJS, Express, React-Bootstrap",
+        "features" : "Firebase, Google Authentication , Login And Registration, Order services, User Review Add, User And Admin Dashboard features, Responsive all Desktop and Mobile",
+        "description": "Anyone can log in to this website with emai and password and google authentication. If the user logs in, he will be recommended to buy the products. Otherwise, it will be sent to the login page. The user can order the products, see all his order , delete his order products history if he wants.",
+        "primaryImg": "https://i.ibb.co/9Yv0bJm/p1.png",
+        "subImg1": "https://i.ibb.co/bKNKgMY/camera-add-product.png", 
+        "subImg2": "https://i.ibb.co/bmRbYGS/camera-login.png", 
+        "subImg3": "https://i.ibb.co/qJmmtwN/camera-order.png",
+        "liveLink" : "https://camera-collection-271d4.web.app/",
+        "clientCodeLink": "https://github.com/emonmahdi/niche-website-carmera-client-side-project",
+        "serverCodeLink" : "https://github.com/emonmahdi/niche-website-carmera-server-side-project-"
+    },
+    {
+        "id" : 4,
+        "name": "SoftITPoint",
+        "languages":"HTML, CSS, Jquery Plugin, Bootstrap, Software-Section, Order-Section, Camera Services",
+        "features" : "Firebase, Google Authentication , Login And Registration, Order services, User Review Add, User And Admin Dashboard features, Responsive all Desktop and Mobile",
+        "description": "Users will be able to login and registration authentication website. Details about our services can be found if the user is logged in. Users will be able to view our website without login",
+        "primaryImg": "https://i.ibb.co/9YNMJqJ/p4.png",
+        "subImg1": "https://i.ibb.co/WBB6S6W/soft.png", 
+        "subImg2": "https://i.ibb.co/61M1S0J/soft-2.png", 
+        "subImg3": "https://i.ibb.co/dPQhHpc/soft-3.png",
+        "liveLink": "https://emonmahdi.github.io/soft-it-point/",
+        "clientCodeLink": "https://github.com/emonmahdi/soft-it-point"
+    }
+]
+
+
+
+
+
+

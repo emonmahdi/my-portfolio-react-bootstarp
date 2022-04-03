@@ -1,11 +1,13 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './education.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGraduationCap, faArchive} from '@fortawesome/free-solid-svg-icons'
 
 const Education = () => {
     return (
         <div id="education-section">
+            <hr />
             <Container>
             <div class="section-title">
    			    <h2>Experience  &amp; <span> Education</span> </h2>
@@ -16,7 +18,8 @@ const Education = () => {
                         <ul>
                             <li>
                                 <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                    <FontAwesomeIcon icon={faArchive} /> 
+                                    
 	   							</div>
                                 <span class="time">2020 - Present </span>
 	   							<h5>web developer <span class="place">Dreamland It  </span></h5>
@@ -30,11 +33,11 @@ const Education = () => {
                         <ul>
                             <li>
                                 <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                     <FontAwesomeIcon icon={faGraduationCap} />
 	   							</div>
-                                <span class="time">2019 - 2020 </span>
-	   							<h5>web Designer  <span class="place">Creative It</span></h5>
-	   							<p>I am a Web desinger. I have already completed lots of project on websites. I can creative design for website. I make any type design website. </p>
+                                <span class="time">2014-2018 </span>
+	   							<h5>Diploma Computer Technology <span class="place">Patuakhali Polytechnic Institue  </span></h5>
+	   							<p>I am Completed Diploma Course on Computer technology at Patuakhali Polytechnic Institute. </p>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +49,7 @@ const Education = () => {
                         <ul>
                             <li>
                                 <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                     <FontAwesomeIcon icon={faArchive} />
 	   							</div>
                                 <span class="time">2018 - 2019</span>
 	   							<h5>Support Enginner <span class="place">Pandora Technology </span></h5>
@@ -60,7 +63,7 @@ const Education = () => {
                         <ul>
                             <li>
                                 <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                     <FontAwesomeIcon icon={faGraduationCap} />
 	   							</div>
                                 <span class="time">2019 - Present  </span>
 	   							<h5>CSE <span class="place">University Of Global Village  </span></h5>
@@ -71,26 +74,27 @@ const Education = () => {
                 </Col>    
             </Row> 
             <Row> 
-                <Col xs={12} md={6}>
+            <Col xs={12} md={6}>
                     <div className="resume-box">
                         <ul>
                             <li>
                                 <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                    <FontAwesomeIcon icon={faArchive} />
 	   							</div>
-                                <span class="time">2014-2018 </span>
-	   							<h5>Diploma Computer Technology <span class="place">Patuakhali Polytechnic Institue  </span></h5>
-	   							<p>I am Completed Diploma Course on Computer technology at Patuakhali Polytechnic Institute. </p>
+                                <span class="time">2019 - 2020 </span>
+	   							<h5>web Designer  <span class="place">Creative It</span></h5>
+	   							<p>I am a Web desinger. I have already completed lots of project on websites. I can creative design for website. I make any type design website. </p>
                             </li>
                         </ul>
                     </div>
-                </Col>    
+                </Col>  
+
                 <Col xs={12} md={6}>
                     <div className="resume-box">
                         <ul>
                             <li>
-                                <div class="icon">
-	   								<i class="fas fa-briefcase"></i>
+                                <div class="icon"> 
+                                    <FontAwesomeIcon icon={faGraduationCap} />
 	   							</div>
                                 <span class="time">2014 </span>
 	   							<h5>SSC <span class="place">Nooria Secondary High School, Barisal  </span></h5>

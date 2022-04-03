@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./HeaderBanner.css";
 import myImg from "../../../images/me.jpg";
+import { FaFilePdf, FaUserAlt } from "react-icons/fa";
 
 const HeaderBanner = () => {
   return (
@@ -31,12 +32,12 @@ const HeaderBanner = () => {
               </p>
               <button className="btn btn-warning me-4">
                 <a href="#about-section">
-                  More About Me <i class="fas fa-user"></i>
+                  More About Me <i><FaUserAlt /></i>
                 </a>
               </button>
               <button className="btn btn-warning">
-                <a href="#about-section">
-                  Dowmload CV<i class="fas fa-user"></i>
+                <a href="https://drive.google.com/file/d/1NNQlJCCv0ETLUzyY-C2qOvIdZH1L4QkN/view" target='_blank'>
+                  Dowmload CV<i><FaFilePdf /></i>
                 </a>
               </button>
             </div>

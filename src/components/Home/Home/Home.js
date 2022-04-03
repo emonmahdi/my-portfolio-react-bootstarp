@@ -2,6 +2,7 @@ import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Contact from '../Contact/Contact';
 import Education from '../Education/Education';
+import Footer from '../Footer/Footer';
 import HeaderBanner from '../HeaderBanner/HeaderBanner';
 import MyBlog from '../MyBlog/MyBlog';
 import MyPortfolio from '../MyPortfolio/MyPortfolio';
@@ -17,6 +18,7 @@ const Home = () => {
             <MyPortfolio />
             <MyBlog />
             <Contact />
+            <Footer />
         </div>
     );
 };

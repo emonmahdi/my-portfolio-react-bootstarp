@@ -1,10 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import './Contact.css'
+import { FaFacebookF, FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div id="contact-section">
+      <hr />
       <Container>
         <div class="section-title">
           <h2>
@@ -22,28 +24,31 @@ const Contact = () => {
               </p>
               <div class="contact">
                 <div class="contact-one">
-                  <i class="fas fa-envelope-open"></i>
-                  <h5>Mail ME </h5>
-                  <span>emonhowlader1997@gmail.com</span>
+                  <FaEnvelope />
+                  <div className="ms-4 my-2">
+                    <h5>Mail ME </h5>
+                    <span>emonhowlader1997@gmail.com</span>
+                  </div>
+                  
                 </div>
                 <div class="contact-one">
-                  <i class="fas fa-phone"></i>
-                  <h5>Call ME </h5>
-                  <span>01908131513</span>
+                  <FaPhone />
+                  <div className="ms-4 my-2">
+                    <h5>Call ME </h5>
+                    <span>01908131513</span>
+                  </div>
+                  
                 </div>
                 <div class="social-link">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://www.facebook.com/mdemon.mahdi7700/">
+                    <FaFacebookF />
                   </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a href="https://www.linkedin.com/in/md-emon-howlader-923157160/">
+                    <FaLinkedin />
                   </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-dribbble"></i>
-                  </a>
+                  <a href="https://github.com/emonmahdi">
+                    <FaGithub />
+                  </a> 
                 </div>
               </div>
             </div>
