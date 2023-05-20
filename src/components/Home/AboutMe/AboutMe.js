@@ -52,7 +52,7 @@ const AboutMe = () => {
                              </Col>
                              <Col xs={12} md={6}>
                                  <div className="complete-Box">
-                                     <span>20+</span>
+                                     <span>25+</span>
                                      <hr />
                                      <h4>Complete Projects</h4>
                                  </div>

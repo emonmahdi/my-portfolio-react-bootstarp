@@ -22,8 +22,8 @@ const Education = () => {
                                     
 	   							</div>
                                 <span class="time">2020 - Present </span>
-	   							<h5>web developer <span class="place">Dreamland It  </span></h5>
-	   							<p>I am a Junior Web Developer at Dreamland It. I have Completed many website developed. And I am a Wordpress Developer at Fiverr. </p> 
+	   							<h5>Front end Developer <span class="place"> at SagacitiAi</span></h5>
+	   							<p>I am a Junior Web Developer at Dreamland It. I have Completed many website developed. And I am a Mern Stack Developer at SagacitiAi. </p> 
                             </li>
                         </ul>
                     </div>
@@ -52,7 +52,7 @@ const Education = () => {
                                      <FontAwesomeIcon icon={faArchive} />
 	   							</div>
                                 <span class="time">2018 - 2019</span>
-	   							<h5>Support Enginner <span class="place">Pandora Technology </span></h5>
+	   							<h5>Support Enginner <span class="place"> at Pandora Technology </span></h5>
 	   							<p>I am a network support engineer. I was a support engineer on Padora Technology. </p>
                             </li>
                         </ul>
@@ -82,7 +82,7 @@ const Education = () => {
                                     <FontAwesomeIcon icon={faArchive} />
 	   							</div>
                                 <span class="time">2019 - 2020 </span>
-	   							<h5>web Designer  <span class="place">Creative It</span></h5>
+	   							<h5>Web Designer  <span class="place"> at SortITPoint</span></h5>
 	   							<p>I am a Web desinger. I have already completed lots of project on websites. I can creative design for website. I make any type design website. </p>
                             </li>
                         </ul>

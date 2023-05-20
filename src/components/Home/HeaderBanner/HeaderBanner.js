@@ -25,10 +25,7 @@ const HeaderBanner = () => {
                 I'M <span>Emon Mahdi</span>{" "}
               </h1>
               <p>
-                I'm a Bangladesh based web designer &amp; front‑end developer
-                focused on crafting clean &amp; user‑friendly experiences, I am
-                passionate about building excellent software that improves the
-                lives of those around me.
+              Hello, I'm Md Emon, a passionate web developer, enthusiastic and self-motivated with excellent knowledge and experience. I have hands-on experience in front-end development using HTML, CSS, and JavaScript, with a focus on building responsive and user-friendly interfaces. Additionally, I am proficient in React, a JavaScript library for building modern web applications. I recently graduated with a degree in Computer Science and Engineering, where I gained a solid understanding of fundamental programming concepts and web development technologies. I believe in the power of continuous learning, and I actively stay updated with the latest trends and advancements in the web development industry.
               </p>
               <button className="btn btn-warning me-4">
                 <a href="#about-section">
@@ -36,7 +33,7 @@ const HeaderBanner = () => {
                 </a>
               </button>
               <button className="btn btn-warning">
-                <a href="https://drive.google.com/file/d/1NNQlJCCv0ETLUzyY-C2qOvIdZH1L4QkN/view" target='_blank'>
+                <a href="https://drive.google.com/file/d/1g6LwBm_O-S72M0RN287Ql9u_xHIR4grC/view?usp=sharing" target='_blank'>
                   Dowmload CV<i><FaFilePdf /></i>
                 </a>
               </button>

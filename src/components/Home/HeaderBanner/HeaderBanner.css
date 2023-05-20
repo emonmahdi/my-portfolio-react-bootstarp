@@ -32,7 +32,7 @@
 	z-index: 1;
 }
 .header-image .my-img{ 
-	 background:url(../../../images/me.jpg);
+	 background:url(../../../images/me-2.jpg);
 	 background-position: top;
 	 background-size:cover;
      position: relative; 
@@ -78,6 +78,7 @@
 	background:#FFC312;
 	padding: 10px 25px; 
 	border-radius: 30px;
+    margin-bottom: 15px;
 } 
 .header-text button a i{
 	opacity: 0; 
