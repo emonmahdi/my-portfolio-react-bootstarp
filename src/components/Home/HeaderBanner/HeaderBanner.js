@@ -33,8 +33,8 @@ const HeaderBanner = () => {
                 </a>
               </button>
               <button className="btn btn-warning">
-                <a href="https://drive.google.com/file/d/1g6LwBm_O-S72M0RN287Ql9u_xHIR4grC/view?usp=sharing" target='_blank'>
-                  Dowmload CV<i><FaFilePdf /></i>
+                <a href="https://drive.google.com/file/d/1gtbp3utNTnUNXAVSuIWxlGP9XhBbsIkE/view" target='_blank'>
+                  Download CV<i><FaFilePdf /></i>
                 </a>
               </button>
             </div>
