@@ -39,10 +39,7 @@ const ProjectDetails = () => {
                   alt="First slide"
                 />
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  </p>
+                <h3>{getDetails?.name}</h3>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={500}>
@@ -52,10 +49,7 @@ const ProjectDetails = () => {
                   alt="Second slide"
                 />
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
+                <h3>{getDetails?.name}</h3>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -65,11 +59,7 @@ const ProjectDetails = () => {
                   alt="Third slide"
                 />
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
+                  <h3>{getDetails?.name}</h3> 
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
@@ -90,8 +80,10 @@ const ProjectDetails = () => {
         <Col xs={12} md={6}>
             <div className="project-details-content text-light text-start">
                 <h3>{getDetails?.name}</h3>
-                <h5 className="mt-5">Key Fetures: </h5>
-                <li>{getDetails?.features}</li> 
+                <h5 className="mt-5">Key Features: </h5>
+                <p>{getDetails?.features?.map(feature => <li>{feature.title}</li>)}</p> 
+                <h5 className="mt-5">Technologies: </h5>
+                <p>{getDetails?.languages?.map(lang => <li>{lang.name}</li>)}</p> 
             </div>
         </Col>
       </Row> 

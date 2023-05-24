@@ -21,7 +21,7 @@ const Education = () => {
                                     <FontAwesomeIcon icon={faArchive} /> 
                                     
 	   							</div>
-                                <span class="time">2020 - Present </span>
+                                <span class="time">2021 -2022 </span>
 	   							<h5>Front end Developer <span class="place"> at SagacitiAi</span></h5>
 	   							<p>I am a Junior Web Developer at Dreamland It. I have Completed many website developed. And I am a Mern Stack Developer at SagacitiAi. </p> 
                             </li>
@@ -66,8 +66,8 @@ const Education = () => {
                                      <FontAwesomeIcon icon={faGraduationCap} />
 	   							</div>
                                 <span class="time">2019 - Present  </span>
-	   							<h5>CSE <span class="place">University Of Global Village  </span></h5>
-	   							<p>I Still now a computer science engineering student. I already completed 4th semister. And I am learing programming languages. </p>
+	   							<h5>BSC in CSE <span class="place">University Of Global Village.</span></h5>
+	   							<p> I am Graduated in CSE at University of Global Village.</p>
                             </li>
                         </ul>
                     </div>
