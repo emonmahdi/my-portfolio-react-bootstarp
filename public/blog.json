@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript core concepts and overview",
+    "description": "JavaScript is a lightweight, high-level, dynamically typed cross-platform, single-threaded, and interpreted compiled programming language.  It was originally designed to add interactivity to web pages and is now used for a wide range of applications, from web development to server-side programming. It is also one of the most widely used programming languages in the world, with a large and active community of developers. Hero some core conecpts javascript.",
+    "published_date": "29/10/23",
+    "img": "https://i.ibb.co/ynKkCJk/Java-Script-Core-Concepts-and-Overview.png",
+    "author": "Md Emon Mahdi",
+    "category": "javascript",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Introduction to HTML and CSS",
+    "description": "HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are fundamental technologies for building and designing web pages. HTML is used to structure the content of a web page, while CSS is used to control its presentation and layout. Understanding these core technologies is essential for web development. This article provides an overview of HTML and CSS for beginners.",
+    "published_date": "30/10/23",
+    "img": "https://i.ibb.co/bHnx0m4/Introduction-to-HTML-and-CSS.png",
+    "author": "Jane Doe",
+    "category": "web development",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Python Programming Basics",
+    "description": "Python is a versatile, high-level programming language known for its readability and simplicity. It is widely used for a variety of applications, including web development, data analysis, and artificial intelligence. This article covers the basics of Python programming, including data types, control structures, and functions, making it a great starting point for new Python developers.",
+    "published_date": "31/10/23",
+    "img": "https://www.ymento.com/blog/wp-content/uploads/2020/08/How-to-Learn-Python-845x549.jpg",
+    "author": "John Smith",
+    "category": "python",
+    "link": ""
+  },
+  {
+    "title": "React Lifecycle and Benefits",
+    "description": "React is a popular JavaScript library for building user interfaces. Understanding the React component lifecycle is crucial for developing efficient and performant applications. In this article, we explore the various stages of a React component's lifecycle and discuss the benefits of using React in web development.",
+    "published_date": "01/11/23",
+    "img": "https://i.ibb.co/wKQFXY7/react-lifecyle.png",
+    "author": "Sarah Johnson",
+    "category": "React",
+    "id": 4,
+    "link": ""
+  }
+]

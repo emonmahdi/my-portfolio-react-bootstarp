@@ -1,0 +1,25 @@
+#skills-section {
+  background: #222f3e;
+  text-align: center;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+  margin: 70px 0;
+}
+.section-title h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 11000;
+}
+.section-title h2 span {
+  color: #ffc312;
+}
+.single-skill {
+  margin-bottom: 40px;
+}

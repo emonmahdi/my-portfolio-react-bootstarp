@@ -1,37 +1,91 @@
 [
   {
     "id": 1,
-    "name": "Hotel Grand Park",
+    "name": "Book Catalog",
     "languages": [
       { "name": "HTML" },
       { "name": "CSS" },
       { "name": "REACT" },
-      { "name": "React-Bootstrap" },
-      { "name": "NodeJS" },
+      { "name": "React-typescript " },
+      { "name": "React-Redux" },
+      { "name": "Redux-toolkit" },
+      { "name": "RTK Query" },
+      { "name": "React Router Dom" },
+      { "name": "React Toastify" },
+      { "name": "React Icons" },
+      { "name": "React Hook forms" },
+      { "name": "Daisy UI" },
+      { "name": "Tailwind Css" },
+      { "name": "Firebase Authentication" },
+      { "name": "Heroku" },
       { "name": "MongoDB" },
       { "name": "Express" }
     ],
     "features": [
-      { "title": "Firebase" },
-      { "title": "Heroku" },
-      { "title": "Google Authentication" },
-      { "title": "Login And Registration" },
-      { "title": "Order services" },
-      { "title": "User Review Add" },
-      { "title": "User And Admin Dashboard features" },
-      { "title": "Responsive all Desktop and Mobile" }
+      { "title": "Show latest upload books" },
+      { "title": "Add Wishlist book" },
+      { "title": "Implement Redux-toolkit and RTK Query data fetching" },
+      { "title": "Delete the book and show the toastify" },
+      { "title": "Edit the book and show the toastify" },
+      { "title": "Login user with email and password" },
+      { "title": "Register new user with email and password" },
+      { "title": "Finish the wishlist implement" },
+      {
+        "title": "Review add authenticate user and show review particular book"
+      }
     ],
-    "primaryImg": "https://i.ibb.co/pbpyBzq/p2.png",
-    "subImg1": "https://i.ibb.co/Nj18jLD/hotel-1.png",
-    "subImg2": "https://i.ibb.co/bd7t37q/hotel-2.png",
-    "subImg3": "https://i.ibb.co/p0qNdKb/hotel-3.png",
-    "description": "Any user can login to this website with google authentication system. If the user is not logged in, he will not be able to accept our service. If user logs in to our website, he will be able to place an order and see his order list.",
-    "liveLink": "https://hotel-grand-park-bsl.web.app/",
-    "clientCodeLink": "https://github.com/emonmahdi/tourism-hotel-project",
-    "serverCodeLink": "https://github.com/emonmahdi/tourism-hotel-project--server-side"
+    "primaryImg": "https://i.ibb.co/pf0RStc/book-catalog-home.png",
+    "subImg1": "https://i.ibb.co/j30bSK2/all-book.png",
+    "subImg2": "https://i.ibb.co/qY2CDpj/single-book.png",
+    "subImg3": "https://i.ibb.co/Ks0ZQRD/add-boook.png",
+    "description": "I have developed a dynamic Book Catalog App using React, Redux, and TypeScript, demonstrating my proficiency in modern web development technologies. This app boasts a wide array of features, showcasing my expertise in creating robust, user-friendly applications. This project showcases my ability to create feature-rich web applications, ensuring an engaging user experience while adhering to best practices in web development. With an emphasis on user-friendly design and functionality, my Book Catalog App serves as a testament to my skills as a frontend developer",
+    "liveLink": "https://book-catalog-app-nine.vercel.app/",
+    "clientCodeLink": "https://github.com/emonmahdi/book-catalog-system-frontend",
+    "serverCodeLink": "https://github.com/emonmahdi/book-catalog-system-backend"
   },
   {
     "id": 2,
+    "name": "Pc_Builder_App",
+    "languages": [
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "REACT" },
+      { "name": "Next.js" },
+      { "name": "React-typescript " },
+      { "name": "React-Redux" },
+      { "name": "Redux-toolkit" },
+      { "name": "RTK Query" },
+      { "name": "React Toastify" },
+      { "name": "React Icons" },
+      { "name": "React Hook forms" },
+      { "name": "Daisy UI" },
+      { "name": "Tailwind Css" },
+      { "name": "Firebase Authentication" },
+      { "name": "MongoDB" },
+      { "name": "Express" },
+      { "name": "Vercel" }
+    ],
+    "features": [
+      {
+        "title": "Implemented user authentication and registration system for secure user accounts."
+      },
+      {
+        "title": "Employed Next.js for optimized server-side rendering and a responsive user experience."
+      },
+      {
+        "title": "Created a dynamic PC customization feature, allowing authenticated users to build PCs according to their component preferences."
+      }
+    ],
+    "primaryImg": "https://i.ibb.co/mBt9r8G/banner-home.png",
+    "subImg1": "https://i.ibb.co/bBkztTR/single-product.png",
+    "subImg2": "https://i.ibb.co/rZGjZKb/single-category.png",
+    "subImg3": "https://i.ibb.co/w7fkPPM/pc-build-page.png",
+    "description": "Developed a web-based PC builder application using Next.js, offering users the ability to create custom PCs and explore a wide range of computer components. The application features user registration and login, product search by category, and a seamless process for assembling a personalized PC by selecting CPU, monitor, RAM, speakers, and more.",
+    "liveLink": "https://pc-builder-next-app.vercel.app/",
+    "clientCodeLink": "https://github.com/emonmahdi/pc-builder-nextjs-frontend"
+  },
+  {
+    "id": 3,
     "name": "Medical Care",
     "languages": [
       { "name": "HTML" },
@@ -60,7 +114,7 @@
     "clientCodeLink": "https://github.com/emonmahdi/medical-care-react"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Edulector Learning Palteform",
     "languages": [
       { "name": "HTML" },
@@ -83,7 +137,7 @@
     "serverCodeLink": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "SoftITPoint",
     "languages": [
       { "name": "HTML" },

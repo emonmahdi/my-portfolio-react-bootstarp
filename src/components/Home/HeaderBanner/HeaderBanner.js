@@ -22,19 +22,38 @@ const HeaderBanner = () => {
             <div class="header-text text-start p-5">
               <h5>hi there!</h5>
               <h1>
-                I'M <span>Emon Mahdi</span>{" "}
+                I'M <span>Emon Howlader</span>{" "}
               </h1>
               <p>
-              Hello, I'm Md Emon, a passionate web developer, enthusiastic and self-motivated with excellent knowledge and experience. I have hands-on experience in front-end development using HTML, CSS, and JavaScript, with a focus on building responsive and user-friendly interfaces. Additionally, I am proficient in React, a JavaScript library for building modern web applications. I recently graduated with a degree in Computer Science and Engineering, where I gained a solid understanding of fundamental programming concepts and web development technologies. I believe in the power of continuous learning, and I actively stay updated with the latest trends and advancements in the web development industry.
+                Hello, I'm Md Emon, a passionate web developer, enthusiastic and
+                self-motivated with excellent knowledge and experience. I have
+                hands-on experience in front-end development using HTML, CSS,
+                and JavaScript, with a focus on building responsive and
+                user-friendly interfaces. Additionally, I am proficient in
+                React,Next.js for building modern web applications. I graduated
+                with a degree in Computer Science and Engineering, where I
+                gained a solid understanding of fundamental programming concepts
+                and web development technologies. I believe in the power of
+                continuous learning, and I actively stay updated with the latest
+                trends and advancements in the web development industry.
               </p>
               <button className="btn btn-warning me-4">
                 <a href="#about-section">
-                  More About Me <i><FaUserAlt /></i>
+                  More About Me{" "}
+                  <i>
+                    <FaUserAlt />
+                  </i>
                 </a>
               </button>
               <button className="btn btn-warning">
-                <a href="https://drive.google.com/file/d/1gtbp3utNTnUNXAVSuIWxlGP9XhBbsIkE/view?usp=share_link" target='_blank'>
-                  Download Resume<i><FaFilePdf /></i>
+                <a
+                  href="https://drive.google.com/file/d/1sR45B_pOXItu3n3U8dBGCY3s_lA8N9tZ/view?usp=drive_link"
+                  target="_blank"
+                >
+                  Download Resume
+                  <i>
+                    <FaFilePdf />
+                  </i>
                 </a>
               </button>
             </div>
